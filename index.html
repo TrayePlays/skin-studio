@@ -1,13 +1,18 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Skin Studio</title>
+    <title>Skin Studio - Updated</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<header id="appHeader">
+    <h1>Skin Studio - <b>Updated</b></h1>
+    <div id="headerActions">
+        <button id="export" class="button">Export</button>
+    </div>
+</header>
 <ul id="skins">
     <li id="addSkin"><span>+</span></li>
-    <li id="export" class="button">Export</li>
 </ul>
 <div id="main">
     <canvas id="primaryCanvas"></canvas>
@@ -17,7 +22,7 @@
             <li id="inspectDefaultActions">
                 <a href="#" class="button" id="uploadModel">Upload model</a>
                 <a href="#" class="button" id="uploadTexture">Upload texture</a>
-                <a href="#" class="button" id="deleteSkin">Delete</a>
+                <a href="#" class="button" id="deleteSkin">🗑️ Delete</a>
             </li>
         </ul>
         <h3 class="panelTitle">Geometry Hierarchy</h3>
